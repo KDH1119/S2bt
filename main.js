@@ -10,10 +10,11 @@ function Imgslide() {
     if(i >= 4) {
         homeImg[i-1].classList.value = 'home__img';
         i = 0;
+    } else if(i > 0){
+        homeImg[i-1].classList.value = 'home__img';
     }
 
     homeImg[i].classList.value = 'home__img active';
-    homeImg[i-1].classList.value = 'home__img';
 };
 
 setInterval(Imgslide, 1500);
