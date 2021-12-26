@@ -1,0 +1,122 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>KDH's Navigation Bar</title>
+
+        <meta
+        name="description"
+        content="Portfolio for wolrd-renowned software engineer KDH"
+        />
+        <meta name="author" content="KDH" />
+        <link rel="icon" type="image/png" href="img/logo.png"/>
+        <script
+        src="https://kit.fontawesome.com/d3c2556ac4.js"
+        crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <!--Navbar-->
+            <nav id="navbar">
+                <div class="navbar__menu">
+                    <div class="navbar__logo">
+                        <i class="favicon">
+                            <a href="#" onclick="location.href=`index.html`">
+                                <img class="home__bar" src="img/logo.png" alt="" href="#">
+                            </a>
+                        </i>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown__btn">
+                            <li>HOME</li>
+                        </button>
+                        <div class="dropdown__content">
+                            <a href="#" onclick="location.href=`s2bt.html`">S2BT</a>
+                            <a href="#" onclick="location.href=`map.html`">찾아오시는 길</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown__btn">
+                            <li>R/D CENTER</li>
+                        </button>
+                        <div class="dropdown__content">
+                            <a href="#">연구개발분야</a>
+                            <a href="#">보유특허/실적</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown__btn">
+                            <li>PRODUCT</li>
+                        </button>
+                        <div class="dropdown__content">
+                            <a href="#">Essence</a>
+                            <a href="#">Facial Mask</a>
+                            <a href="#">Care Voucher</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown__btn">
+                            <li>O2O PLATFORM</li>
+                        </button>
+                        <div class="dropdown__content">
+                            <a href="#">Online_Beauarmy</a>
+                            <a href="#">Offline_Beaulounge</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown__btn">
+                            <li>PR CENTER</li>
+                        </button>
+                        <div class="dropdown__content">
+                            <a href="#">공지사항</a>
+                            <a href="#">보도자료</a>
+                            <a href="#">홍보영상</a>
+                            <a href="#">수상내역</a>
+                            <a href="#">라이브러리</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropdown__btn">
+                            <li>BRAND</li>
+                        </button>
+                        <div class="dropdown__content">
+                            <a href="#">Story</a>
+                            <a href="#">BeauTV</a>
+                            <a href="#">History</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--Home-->
+            <div id="home">
+                <div class="home__margin"></div>
+                <div class="home">
+                    <img class="home__img active" src="img/img1.jpg" >
+                    <img class="home__img" src="img/img2.jpg">
+                    <img class="home__img" src="img/img3.jpg">
+                    <img class="home__img" src="img/img4.jpg">
+                </div>
+            </div>
+
+            <footer>
+                <article>
+                    <h3>Representative : 김연선</h3>
+                    <h3>Company Contact : 053-742-3303</h3>
+                    <h3>Registration Number : 648-88-01338</h3>
+                </article>
+                <h3>Copyright ⓒ 2021 S2beautech Co,. Ltd All rights reserved.</h3>
+            </footer>
+        </div>
+    </body>
+    </html>
