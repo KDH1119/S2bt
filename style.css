@@ -114,7 +114,7 @@ p {
   width: 100%;
   background-color: var(--color-pink);
   color: var(--color-white);
-  padding: 16px;
+  padding: 6px;
 }
 
 .home__bar {
@@ -135,7 +135,7 @@ p {
 
 .dropdown__btn {
   padding: 6px 8px;
-  margin-top: 8px;
+  margin-top: 10px;
   margin-right: 8px;
 }
 
@@ -145,13 +145,13 @@ p {
 
 .dropdown__content {
   display: none;
-  padding-top: 20px;
+  padding-top: 14px;
   position: absolute;
   z-index: 1;
 }
 
 .dropdown__content a {
-  margin: 20px 16px;
+  margin: 14px 16px;
   color: var(--color-med-pink);
   display: block;
 }
@@ -225,7 +225,7 @@ p {
 .home__margin {
   margin: 4px 0;
   width: 100%;
-  height: 210px;
+  height: 180px;
   background-color: var(--color-light-pink);
 }
 
@@ -352,20 +352,73 @@ p {
 
 /* Login */
 #login {
-  position: relative;
   text-align: center;
   justify-content: center;
 }
 
-.screenimg {
+.login__container {
   padding-top: 60px;
-  width: 70%;
-  height: 70%;
-  opacity: 0.8;
+  position: relative;
+  margin: 10px auto;
 }
 
-.screen {
-  display: inline-flex;
+.login__imgcontainer {
+  vertical-align: middle;
+}
+
+.login__img {
+  max-width: 80%;
+  max-height: 80%;
+  vertical-align: middle;
+  opacity: 0.7;
+}
+
+.login__screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 400px;
+  height: 360px;
+  opacity: 0.9;
+  background-color: var(--color-light-pink);
+  border: 4px solid var(--color-pink);
+  border-radius: var(--size-border-radius);
+}
+
+.login__screen li:nth-child(1) {
+  padding: 20px;
+  color: var(--color-med-pink);
+  font-size: var(--font-medium);
+  font-weight: var(--weight-bold);
+  text-align: center;
+}
+
+.login__screen li {
+  padding-left: 24px;
+  padding-bottom: 20px;
+  color: var(--color-pink);
+  text-align: left;
+}
+
+.login__screen input {
+  position: absolute;
+  left: 35%;
+  width: 50%;
+  height: 24px;
+  border: none;
+}
+
+.login__screen h3 {
+  padding: 12px 16px;
+  color: var(--color-med-pink);
+  text-decoration: underline;
+}
+
+.login__screen button:hover {
+  transform: scale(1.1);
+  transition: var(--animation-duration) ease;
 }
 
 /* Footer */
