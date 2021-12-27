@@ -18,3 +18,6 @@ function Imgslide() {
 };
 
 setInterval(Imgslide, 1500);
+
+const dropdown = document.querySelector('.dropdown');
+const mapTitle = document.querySelector('.map__title');
