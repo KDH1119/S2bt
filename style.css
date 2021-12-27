@@ -298,6 +298,8 @@ p {
 }
 
 .map__title {
+  text-align: center;
+  transform: translateY(80%);
   font-size: var(--font-large);
   font-weight: var(--weight-semi-bold);
   width: 100%;
@@ -307,6 +309,7 @@ p {
 .map__container {
   display: inline-flex;
   justify-content: center;
+  margin-bottom: 200px;
 }
 
 .map__img {
