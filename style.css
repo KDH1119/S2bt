@@ -224,6 +224,7 @@ p {
 #home {
   height: auto;
   min-height: 100%;
+  padding-bottom: 40px;
 }
 
 .home__margin {
@@ -241,6 +242,7 @@ p {
 
 .home__img {
   display: none;
+  margin-top: 12px;
   text-align: center;
   width: 50%;
   height: 50%;
@@ -256,7 +258,9 @@ p {
 
 /* S2BT */
 .s2bt__container {
-  padding: 160px;
+  padding: 20px;
+  padding-top: 0;
+  margin-top: 12px;
 }
 
 .s2bt__container:nth-child(1) {
@@ -280,6 +284,7 @@ p {
   display: block;
   flex-direction: row-reverse;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .s2bt__text:nth-child(odd) {
@@ -298,6 +303,7 @@ p {
 
 /* Map */
 #map {
+  margin-top: 12px;
   text-align: center;
 }
 
@@ -321,7 +327,7 @@ p {
 }
 
 .map__img {
-  margin: auto;
+  margin-top: 0;
 }
 
 .map__text {
@@ -333,7 +339,8 @@ p {
 .map__text h1 {
   font-weight: var(--weight-bold);
   font-size: var(--font-medium);
-  margin: 20px 0;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .map__text h2 {
@@ -386,7 +393,7 @@ p {
 
 .login__screen {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -412,6 +419,12 @@ p {
   color: var(--color-pink);
   text-align: left;
 }
+
+.login__btn__h3 {
+  background: var(--color-pink);
+  border-radius: var(--size-border-radius);
+}
+
 
 .login__screen input {
   position: absolute;
@@ -454,7 +467,7 @@ footer h3 {
 }
 
 article h3 {
-  margin: 8px 12px;
+  margin: 10px 12px;
   display: inline-flex;
   color: var(--color-white);
 }
