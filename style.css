@@ -183,6 +183,11 @@ p {
   color: var(--color-pink);
 }
 
+.dropdown__btn:hover + .home__title {
+  opacity: 0;
+}
+
+
 .login {
   position: absolute;
   right: 40px;
@@ -224,7 +229,7 @@ p {
 #home {
   height: auto;
   min-height: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 
 .home__margin {
@@ -307,9 +312,9 @@ p {
   text-align: center;
 }
 
-.map__title {
+.home__title {
   text-align: center;
-  transform: translateY(80%);
+  transform: translateY(85%);
   font-size: var(--font-large);
   font-weight: var(--weight-semi-bold);
   width: 100%;
